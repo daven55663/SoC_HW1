@@ -80,7 +80,7 @@ slow_clk <= tmp(25);  -- 除頻用
 
 1. 開啟 Vivado 並匯入 block design（PS + AXI GPIO + 自訂 IP `HW1`）
 2. 確認 AXI GPIO 通道輸出至 `i_limit`、LED 接至 `o_led`
-3. Build Bitstream → Export Hardware → Launch Vitis
+3. Build Bitstream → Export Hardware → Launch SDK
 4. 上傳 `main.c`，燒錄並執行
 
 ---
@@ -88,4 +88,6 @@ slow_clk <= tmp(25);  -- 除頻用
 ## 📎 補充
 
 - 若要加快測試速度，可將除頻位改成 `tmp(1)` 觀察 LED 閃爍
-- 若你有其他模組，如 UART、AXI BRAM，可擴充至更複雜架構
+- 若有其他模組，如 UART、AXI BRAM，可擴充至更複雜架構
+## 影片
+https://www.youtube.com/shorts/VQ42d9FvCsA
