@@ -11,23 +11,12 @@
 
 ---
 
-## 🧱 系統架構圖
 
-```
-Processing System (PS)
-        │
-        ├── AXI Interconnect
-        │        │
-        │        └── AXI GPIO (GPIO Output)
-        │                 └── PL VHDL (HW1)
-        │                         └── o_led → 8-bit LED 顯示
-        └── DDR / Clock / Reset 其他基本連線
-```
 
 或你也可以加入圖片說明（建議使用 `.png`）：
 
 ```md
-![image](需求.png)
+![image]([https://github.com/daven55663/SoC_HW1/blob/main/SoC_HW1.PNG])
 ```
 
 ---
