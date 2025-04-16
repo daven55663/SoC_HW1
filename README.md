@@ -27,7 +27,7 @@ Processing System (PS)
 或你也可以加入圖片說明（建議使用 `.png`）：
 
 ```md
-![系統架構圖](./img/system_block_diagram.png)
+![image](需求.png)
 ```
 
 ---
