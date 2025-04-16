@@ -2,7 +2,7 @@
 #include "xparameters.h"
 #include "xgpio.h"
 
-#define LIMIT_VALUE 100  // ­n¼g¤Jªº­­¨î­È
+#define LIMIT_VALUE 100  // è¦å¯«å…¥çš„é™åˆ¶å€¼
 
 int main()
 {
@@ -11,16 +11,16 @@ int main()
 
     XGpio_Initialize(&Gpio_Limit, XPAR_AXI_GPIO_0_DEVICE_ID);
 
-    // ³]©w GPIO ¬°¿é¥X¤è¦V¡]¥Ñ PS ¿é¥X¼Æ­È¡^
-    XGpio_SetDataDirection(&Gpio_Limit, 1, 0x00);  // Channel 1, ¥ş³¡¬°¿é¥X
+    // è¨­å®š GPIO ç‚ºè¼¸å‡ºæ–¹å‘ï¼ˆç”± PS è¼¸å‡ºæ•¸å€¼ï¼‰
+    XGpio_SetDataDirection(&Gpio_Limit, 1, 0x00);  // Channel 1, å…¨éƒ¨ç‚ºè¼¸å‡º
 
-    // ¼g¤J¼Æ­È¨ì PL ¼Ò²Õ (HW1) ªº i_limit
+    // å¯«å…¥æ•¸å€¼åˆ° PL æ¨¡çµ„ (HW1) çš„ i_limit
     XGpio_DiscreteWrite(&Gpio_Limit, 1, LIMIT_VALUE);
 
-    printf("¤w¼g¤J­­¨î­È: %d\n", LIMIT_VALUE);
+    printf("å·²å¯«å…¥é™åˆ¶å€¼: %d\n", LIMIT_VALUE);
 
     while(1) {
-        // §A¥i¥H¦b³o¸Ì¥[¤@­Ó LED °{Ã{©Îµ¥­Ô¥\¯à
+        
     }
 
     return 0;
