@@ -10,13 +10,13 @@
 - **LED 輸出**：將計數結果透過 8 顆 LED 顯示
 
 ---
+## 🧱 系統架構圖
+![image](https://github.com/daven55663/SoC_HW1/blob/main/SoC_HW1.PNG)
 
 
-
-或你也可以加入圖片說明（建議使用 `.png`）：
 
 ```md
-![image]([https://github.com/daven55663/SoC_HW1/blob/main/SoC_HW1.PNG])
+
 ```
 
 ---
