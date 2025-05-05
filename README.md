@@ -11,7 +11,7 @@
 
 ---
 ## 🧱 系統架構圖
-![image](https://github.com/daven55663/SoC_HW1/blob/main/SoC_HW1.PNG)
+![image](https://github.com/daven55663/SoC_HW1/blob/main/%E6%93%B7%E5%8F%96.PNG)
 
 
 
